@@ -10,8 +10,8 @@
   </head>
   <body>
     <header class="header">
-      <h1>
-        <a href="/"><img src="./img/logo.svg" alt="PHOTO BOOK" class="header__logo" /></a>
+      <h1 class="header__logo">
+        <a href="/"><img src="./img/logo.svg" alt="PHOTO BOOK" /></a>
       </h1>
     </header>
 
@@ -19,16 +19,17 @@
       <!-- main-visual -->
       <div class="main-visual"><img src="./img/mainvisual.jpg" alt="" /></div>
 
-      <section>
-        <h2 class="index__title section__title">Index</h2>
-        <ol class="index__body">
-          <li class="index__item">タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル</li>
-          <li class="index__item">タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル</li>
-          <li class="index__item">タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル</li>
-          <li class="index__item">タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル</li>
-          <li class="index__item">タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル</li>
+      <!-- index -->
+      <section class="index">
+        <h2 class="section__title">Index</h2>
+        <ol class="index__list">
+          <li class="list__item">タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル</li>
+          <li class="list__item">タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル</li>
+          <li class="list__item">タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル</li>
+          <li class="list__item">タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル</li>
+          <li class="list__item">タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル</li>
         </ol>
-        <div>
+        <div class="index__images">
           <img src="./img/photo1.jpg" alt="" />
           <img src="./img/photo2.jpg" alt="" />
           <img src="./img/photo3.jpg" alt="" />
@@ -36,26 +37,28 @@
         </div>
       </section>
 
-      <section>
-        <h2 class="card__head section__title">Detail</h2>
-        <dl>
-          <div class="card__item">
-            <dt>著者</dt>
+      <!-- detail -->
+      <section class="detail">
+        <h2 class="section__title">Detail</h2>
+        <dl class="detail__list">
+          <div class="list__item">
+            <dt class="--bold">著者</dt>
             <dd>タイトルタイトルタイトル</dd>
           </div>
-          <div class="card__item">
-            <dt>出版社</dt>
+          <div class="list__item">
+            <dt class="--bold">出版社</dt>
             <dd>タイトルタイトルタイトル</dd>
           </div>
-          <div class="card__item">
-            <dt>発行年</dt>
+          <div class="list__item">
+            <dt class="--bold">発行年</dt>
             <dd>タイトルタイトルタイトル</dd>
           </div>
         </dl>
-        <p class="card__description">テキストテキストテキストテキストテキス トテキストテキストテキストテキストテキストテキストテキスト</p>
-        <a href="#" class="card__link">オンラインストアで見る</a>
+        <p class="detail__description">テキストテキストテキストテキストテキス トテキストテキストテキストテキストテキストテキストテキスト</p>
+        <a href="#" class="detail__link">オンラインストアで見る</a>
       </section>
     </main>
+
     <footer class="footer">
       <small class="footer__copyright">&copy; 2020 PHOTO BOOK</small>
     </footer>
