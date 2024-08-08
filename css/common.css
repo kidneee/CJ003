@@ -32,6 +32,10 @@ body {
 }
 
 /* main */
+.main {
+  margin-bottom: 75px;
+}
+
 /* main-visual */
 .main-visual {
   width: 100%;
@@ -89,7 +93,11 @@ body {
 .detail__inner--left {
   border-right: 2px solid #333;
   padding-right: 71px;
-  margin-right: 40px;
+  margin-right: 38px;
+}
+
+.detail__def .def__item:not(:last-of-type) {
+  margin-bottom: 10px;
 }
 
 .detail__def .def__item--bold {
@@ -100,7 +108,21 @@ body {
   max-width: 402px;
 }
 
+.detail__desc {
+  margin-bottom: 20px;
+}
+
+.detail__link {
+  color: #333;
+  padding-bottom: 2px;
+  border-bottom: 2px solid #333;
+}
+
 /* footer */
 .footer {
   text-align: center;
+}
+
+.footer__copyright {
+  font-size: 10px;
 }
