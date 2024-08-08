@@ -91,7 +91,7 @@ body {
 }
 
 .detail__inner--left {
-  border-right: 2px solid #333;
+  border-right: 1px solid #333;
   padding-right: 71px;
   margin-right: 38px;
 }
@@ -115,7 +115,7 @@ body {
 .detail__link {
   color: #333;
   padding-bottom: 2px;
-  border-bottom: 2px solid #333;
+  border-bottom: 1px solid #333;
 }
 
 /* footer */
@@ -125,4 +125,49 @@ body {
 
 .footer__copyright {
   font-size: 10px;
+}
+
+/* レスポンシブ */
+@media screen and (max-width: 1024px) {
+  /* header */
+  .header {
+    padding-left: 10px;
+  }
+
+  /* content__inner */
+  .content__inner {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+
+  /* index */
+  .index__inner--top {
+    padding: 40px 20px;
+  }
+
+  .index__list {
+    padding: 30px;
+    text-indent: -1em;
+  }
+
+  .index__images-list {
+    justify-content: center;
+  }
+
+  /* detail */
+  .detail {
+    padding: 40px 20px;
+  }
+
+  .detail__inner {
+    flex-direction: column;
+  }
+
+  .detail__inner--left {
+    border-right: none;
+    border-bottom: 1px solid #333;
+    margin-right: 0;
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+  }
 }
