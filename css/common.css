@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+/* header */
+.header__logo {
+  width: 180px;
+  height: 18px;
+}
+
+/* main */
+/* main-visual */
+.main-visual {
+  max-width: 1000px;
+  height: auto;
+}
+
+/* wrapper */
+.wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* index */
+.index__images-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.index__images-list .images-list__item {
+  max-width: 392px;
+  height: auto;
+}
+
+/* detail */
+.detail__inner {
+  display: flex;
+}
